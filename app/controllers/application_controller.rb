@@ -1,7 +1,7 @@
 class ApplicationController < ActionController::Base
 
   def yo
-    render text: "Ey, yo, sup."
+    render html: "Ey, yo, sup."
   end
 
 end
